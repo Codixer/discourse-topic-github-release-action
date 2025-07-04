@@ -8,7 +8,7 @@ jobs:
   post:
     runs-on: ubuntu-latest
     steps:
-    - uses: roots/roots-discourse-release-action@main
+    - uses: Codixer/roots-discourse-release-action@main
       with:
         discourse-api-key: ${{ secrets.DISCOURSE_RELEASES_API_KEY }}
         discourse-base-url: ${{ secrets.DISCOURSE_BASE_URL }}
