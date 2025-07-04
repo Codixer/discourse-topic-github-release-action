@@ -1,6 +1,6 @@
-name: 'Discourse Topics for GitHub Releases'
+name: 'Discourse Topics for GitHub Releases (Updated)'
 description: 'Create a Discourse topic for a published GitHub release'
-author: Scott Walkinshaw
+author: Stefano Haagmans
 branding:
   icon: 'package'  
   color: 'blue'
