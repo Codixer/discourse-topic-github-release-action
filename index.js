@@ -22,7 +22,7 @@ async function run() {
       }
     }
 
-    const title = `${repo} ${release.tag_name} released`;
+    const title = `${repo} ${release.ref_name} released`;
     const topic = {
       title,
       raw: `[${title}](${release.html_url})
