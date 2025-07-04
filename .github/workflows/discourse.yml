@@ -12,7 +12,7 @@ jobs:
       with:
         discourse-api-key: ${{ secrets.DISCOURSE_RELEASES_API_KEY }}
         discourse-base-url: ${{ secrets.DISCOURSE_BASE_URL }}
-        discourse-author-username: swalkinshaw
-        discourse-category: 10
+        discourse-author-username: NetBird
+        discourse-category: 17
         discourse-tags:
           releases
